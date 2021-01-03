@@ -1,7 +1,7 @@
 {
   "name": "webpack-prod",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vanilla Javascript Webpack Production Template",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config=webpack.config.prod.js",
@@ -9,9 +9,14 @@
     "start": "webpack-dev-server --config=webpack.config.dev.js --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "vanilla",
+    "javascript",
+    "webpack",
+    "production"
+  ],
   "author": "Rob Westbrook <brorobw@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
